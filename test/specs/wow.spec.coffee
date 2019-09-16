@@ -1,8 +1,6 @@
-describe 'WOW', ->
+WOW = require '../../src/wow.coffee';
 
-  # Supress warnings:
-  window.console =
-    warn: ->
+describe 'WOW', ->
 
   # Time to wait after each scroll event:
   # (This should be >= the interval used by the plugin.)

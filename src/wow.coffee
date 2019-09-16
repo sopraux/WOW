@@ -1,8 +1,8 @@
 #
-# Name    : wow
-# Author  : Matt Delac, https://www.delac.io/, @mattdelac_
-# Version : 1.1.2
-# Repo    : https://github.com/matthieua/WOW
+# Name    : @sopraux/wow
+# Author  : David Peris, Github: davidperis92
+# Version : 1.0.0
+# Repo    : https://github.com/sopraux/WOW
 # Website : https://www.delac.io/WOW
 #
 
@@ -113,7 +113,7 @@ class @WOW
     @scrolled = true
     @config   = @util().extend(options, @defaults)
     if options.scrollContainer?
-      @config.scrollContainer = document.querySelector(options.scrollContainer)
+      @config.scrollContainer = options.scrollContainer
     # Map of elements to animation names:
     @animationNameCache = new WeakMap()
     @wowEvent = @util().createEvent(@config.boxClass)
