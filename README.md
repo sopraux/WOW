@@ -26,7 +26,7 @@ Advantages:
 - NPM
 
 ```bash
-   npm install wowjs-shadow
+  npm install wowjs-shadow
 ```
 
 ### Basic usage
@@ -34,9 +34,12 @@ Advantages:
 In order to hide all elements when they are supposed to be hidden. (Anti Flickering)
 
 - CSS
-  .wow {
+
+```css
+.wow {
   visibility: hidden;
-  }
+}
+```
 
 - HTML
 
@@ -82,6 +85,17 @@ var wow = new WOW({
     // the argument that is passed in is the DOM node being animated
   },
   scrollContainer: null // optional scroll container HTMLElement, otherwise use window
+});
+wow.init();
+```
+
+Example with scrollContainer using an ion-content element of ionic4:
+
+```javascript
+const content = document.querySelector(".ion-page > ion-content");
+const scrollElement = content.shadowRoot.querySelector("main.inner-scroll");
+const wow = new WOW({
+  scrollContainer: scrollElement
 });
 wow.init();
 ```
