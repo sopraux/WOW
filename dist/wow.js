@@ -1,9 +1,8 @@
   
-  // Name    : wow
-  // Author  : Matt Delac, https://www.delac.io/, @mattdelac_
-  // Version : 1.1.2
-  // Repo    : https://github.com/matthieua/WOW
-  // Website : https://www.delac.io/WOW
+  // Name    : @sopraux/wow
+  // Author  : David Peris, Github: davidperis92
+  // Version : 2.0.0
+  // Repo    : https://github.com/sopraux/WOW
 
 var MutationObserver, Util, WeakMap, getComputedStyle, getComputedStyleRX,
   indexOf = [].indexOf;

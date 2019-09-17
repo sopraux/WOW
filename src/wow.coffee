@@ -1,9 +1,8 @@
 #
 # Name    : @sopraux/wow
 # Author  : David Peris, Github: davidperis92
-# Version : 1.0.0
+# Version : 2.0.0
 # Repo    : https://github.com/sopraux/WOW
-# Website : https://www.delac.io/WOW
 #
 
 
