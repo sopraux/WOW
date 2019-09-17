@@ -15,7 +15,7 @@ Advantages:
 
 ## Version
 
-2.0.0
+2.0.1
 
 ### Dependencies
 
@@ -26,7 +26,7 @@ Advantages:
 - NPM
 
 ```bash
-   npm install wowjs
+   npm install wowjs-shadow
 ```
 
 ### Basic usage
