@@ -1,4 +1,4 @@
-var { dest, series, src } = require("gulp");
+var { dest, series, src, watch } = require("gulp");
 var rename = require("gulp-rename");
 var jasmine = require("gulp-jasmine");
 var coffee = require("gulp-coffee");
@@ -37,4 +37,10 @@ function specs(cb) {
 }
 
 exports.test = series(specs);
-exports.default = series(scripts, minify);
+
+exports.build = series(scripts, minify);
+
+exports.default = () => {
+  watch("src/**/*.coffee", this.build);
+  this.build();
+};

@@ -1,12 +1,20 @@
 {
   "name": "@sopraux/wowjs",
   "title": "WOW",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "keywords": [
-    "wowjs"
+    "wow",
+    "wowjs",
+    "HTML",
+    "Element",
+    "ShadowDom",
+    "Shadow",
+    "dom",
+    "js",
+    "coffeescript",
+    "gulp"
   ],
-  "homepage": "",
   "author": {
     "name": "David Peris",
     "email": "davidperis92@gmail.com"
@@ -39,6 +47,7 @@
     "gulp-uglify": "^3.0.2"
   },
   "scripts": {
-    "build": "gulp"
+    "start": "gulp",
+    "build": "gulp build"
   }
 }
